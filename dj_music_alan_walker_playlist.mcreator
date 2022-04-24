@@ -1,0 +1,43 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "W",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "w"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.w.name": "W"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "dj_music_alan_walker_playlist",
+    "modName": "DJ Music Alan Walker Playlist",
+    "version": "1.0.0",
+    "author": "Fahad Sameer Shaikh, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.12.2",
+    "modElementsPackage": "net.mcreator.djmusicalanwalkerplaylist",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}
