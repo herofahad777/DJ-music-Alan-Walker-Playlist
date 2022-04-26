@@ -34,6 +34,8 @@ import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.block.Block;
 
+import net.mcreator.djmusicalanwalkerplaylist.gui.GuiAlanWalkerPlaylistGUI;
+
 import java.util.function.Supplier;
 import java.util.Random;
 import java.util.Map;
@@ -54,6 +56,17 @@ public class ElementsDjMusicAlanWalkerPlaylistMod implements IFuelHandler, IWorl
 	public final List<Supplier<Potion>> potions = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public ElementsDjMusicAlanWalkerPlaylistMod() {
+		sounds.put(new ResourceLocation("dj_music_alan_walker_playlist", "alan_walker_-_the_spectre"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("dj_music_alan_walker_playlist", "alan_walker_-_the_spectre")));
+		sounds.put(new ResourceLocation("dj_music_alan_walker_playlist", "alan_walker_-_alone"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("dj_music_alan_walker_playlist", "alan_walker_-_alone")));
+		sounds.put(new ResourceLocation("dj_music_alan_walker_playlist", "alan_walker_-_sing_me_to_sleep"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("dj_music_alan_walker_playlist", "alan_walker_-_sing_me_to_sleep")));
+		sounds.put(new ResourceLocation("dj_music_alan_walker_playlist", "alan_walker_-_darkside_feat._au_ra_and_tomine_harket"),
+				new net.minecraft.util.SoundEvent(
+						new ResourceLocation("dj_music_alan_walker_playlist", "alan_walker_-_darkside_feat._au_ra_and_tomine_harket")));
+		sounds.put(new ResourceLocation("dj_music_alan_walker_playlist", "alan_walker_-_faded"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("dj_music_alan_walker_playlist", "alan_walker_-_faded")));
 	}
 
 	public void preInit(FMLPreInitializationEvent event) {
@@ -125,11 +138,15 @@ public class ElementsDjMusicAlanWalkerPlaylistMod implements IFuelHandler, IWorl
 	public static class GuiHandler implements IGuiHandler {
 		@Override
 		public Object getServerGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
+			if (id == GuiAlanWalkerPlaylistGUI.GUIID)
+				return new GuiAlanWalkerPlaylistGUI.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
 		@Override
 		public Object getClientGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
+			if (id == GuiAlanWalkerPlaylistGUI.GUIID)
+				return new GuiAlanWalkerPlaylistGUI.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}

@@ -1,5 +1,7 @@
 {
-  "id_map": {},
+  "id_map": {
+    "GUI": 1
+  },
   "mod_elements": [
     {
       "name": "W",
@@ -9,13 +11,230 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "w"
+    },
+    {
+      "name": "AlanWalkerPlaylist",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_playlist"
+    },
+    {
+      "name": "Playlist",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "playlist"
+    },
+    {
+      "name": "WPlaylist",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "w_playlist"
+    },
+    {
+      "name": "PlaylistRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "playlist_recipe"
+    },
+    {
+      "name": "AlanWalkerPlaylistGUI",
+      "type": "gui",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1
+      },
+      "registry_name": "alan_walker_playlist_gui"
+    },
+    {
+      "name": "RightclickonAlanWalkerPlaylist",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rightclickon_alan_walker_playlist",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AlanWalkerDarkside",
+      "type": "musicdisc",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_darkside"
+    },
+    {
+      "name": "AlanWalkerFaded",
+      "type": "musicdisc",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_faded"
+    },
+    {
+      "name": "AlanWalkerTheSpectre",
+      "type": "musicdisc",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_the_spectre"
+    },
+    {
+      "name": "AlanWalkerAlone",
+      "type": "musicdisc",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_alone"
+    },
+    {
+      "name": "AlanWalkerSingMeToSleep",
+      "type": "musicdisc",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_sing_me_to_sleep"
+    },
+    {
+      "name": "GUIClose",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gui_close",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AlanWalkerFadedGiver",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_faded_giver",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "alan_walker_-_the_spectre",
+      "files": [
+        "alan_walker_-_the_spectre"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "alan_walker_-_alone",
+      "files": [
+        "alan_walker_-_alone"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "alan_walker_-_sing_me_to_sleep",
+      "files": [
+        "alan_walker_-_sing_me_to_sleep"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "alan_walker_-_darkside_feat._au_ra_and_tomine_harket",
+      "files": [
+        "alan_walker_-_darkside_feat._au_ra_and_tomine_harket"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "alan_walker_-_faded",
+      "files": [
+        "alan_walker_-_faded"
+      ],
+      "category": "master",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "en_us": {
-      "item.w.name": "W"
+      "item.w.name": "W",
+      "item.record.alan_walker_sing_me_to_sleep.desc": "Alan Walker Sing Me To Sleep",
+      "subtitles.alan_walker_-_the_spectre": "",
+      "item.record.alan_walker_faded.desc": "Alan Walker Faded",
+      "subtitles.alan_walker_-_faded": "",
+      "item.alan_walker_alone.name": "Alan Walker Alone",
+      "item.alan_walker_playlist.name": "Alan Walker Playlist",
+      "item.alan_walker_faded.name": "Alan Walker Faded",
+      "subtitles.alan_walker_-_darkside_feat._au_ra_and_tomine_harket": "",
+      "subtitles.alan_walker_-_alone": "",
+      "item.record.alan_walker_alone.desc": "Alan Walker Alone",
+      "item.alan_walker_sing_me_to_sleep.name": "Alan Walker Sing Me To Sleep",
+      "item.playlist.name": "Playlist",
+      "item.alan_walker_the_spectre.name": "Alan Walker The Spectre",
+      "subtitles.alan_walker_-_sing_me_to_sleep": "",
+      "item.record.alan_walker_the_spectre.desc": "Alan Walker The Spectre",
+      "item.alan_walker_darkside.name": "Alan Walker Darkside",
+      "item.record.alan_walker_darkside.desc": "Alan Walker Darkside"
     }
   },
   "foldersRoot": {
@@ -36,6 +255,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.12.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.djmusicalanwalkerplaylist",
     "lockBaseModFiles": false
   },

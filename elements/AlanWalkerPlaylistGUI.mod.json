@@ -1,0 +1,108 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 435,
+    "height": 245,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Alan Walker Playlist",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Alan Walker Playlist",
+          "x": 162,
+          "y": 8
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Faded",
+          "width": 50,
+          "height": 20,
+          "name": "Faded",
+          "x": 6,
+          "y": 30
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Darkside",
+          "width": 65,
+          "height": 20,
+          "name": "Darkside",
+          "x": 67,
+          "y": 30
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "The Spectre",
+          "width": 80,
+          "height": 20,
+          "name": "The Spectre",
+          "x": 139,
+          "y": 30
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Alone",
+          "width": 50,
+          "height": 20,
+          "name": "Alone",
+          "x": 226,
+          "y": 30
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Sing Me To Sleep",
+          "width": 105,
+          "height": 20,
+          "name": "Sing Me To Sleep",
+          "x": 286,
+          "y": 30
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Close",
+          "onClick": {
+            "name": "GUIClose"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "Close",
+          "x": 4,
+          "y": 3
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": ">>>",
+          "width": 40,
+          "height": 20,
+          "name": ">>>",
+          "x": 383,
+          "y": 3
+        }
+      }
+    ]
+  }
+}

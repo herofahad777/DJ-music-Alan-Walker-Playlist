@@ -1,0 +1,17 @@
+{
+  "_fv": 18,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "walker_w",
+    "name": "Alan Walker Faded",
+    "description": "Alan Walker Faded",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:alan_walker_-_faded"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

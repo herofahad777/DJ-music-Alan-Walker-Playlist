@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:W"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:W"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Playlist"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:W"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:W"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AlanWalkerPlaylist"
+    },
+    "name": "w_playlist",
+    "namespace": "mod"
+  }
+}
