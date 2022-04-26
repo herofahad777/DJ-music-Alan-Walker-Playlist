@@ -10,7 +10,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "w"
+      "registry_name": "w",
+      "path": "~/items"
     },
     {
       "name": "AlanWalkerPlaylist",
@@ -19,7 +20,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "alan_walker_playlist"
+      "registry_name": "alan_walker_playlist",
+      "path": "~/items"
     },
     {
       "name": "Playlist",
@@ -28,7 +30,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "playlist"
+      "registry_name": "playlist",
+      "path": "~/items"
     },
     {
       "name": "WPlaylist",
@@ -37,7 +40,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "w_playlist"
+      "registry_name": "w_playlist",
+      "path": "~/recipe"
     },
     {
       "name": "PlaylistRecipe",
@@ -46,7 +50,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "playlist_recipe"
+      "registry_name": "playlist_recipe",
+      "path": "~/recipe"
     },
     {
       "name": "AlanWalkerPlaylistGUI",
@@ -57,7 +62,8 @@
       "ids": {
         "0": 1
       },
-      "registry_name": "alan_walker_playlist_gui"
+      "registry_name": "alan_walker_playlist_gui",
+      "path": "~/GUI"
     },
     {
       "name": "RightclickonAlanWalkerPlaylist",
@@ -90,7 +96,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/GUI"
     },
     {
       "name": "AlanWalkerDarkside",
@@ -99,7 +106,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "alan_walker_darkside"
+      "registry_name": "alan_walker_darkside",
+      "path": "~/Songs"
     },
     {
       "name": "AlanWalkerFaded",
@@ -108,7 +116,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "alan_walker_faded"
+      "registry_name": "alan_walker_faded",
+      "path": "~/Songs"
     },
     {
       "name": "AlanWalkerTheSpectre",
@@ -117,7 +126,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "alan_walker_the_spectre"
+      "registry_name": "alan_walker_the_spectre",
+      "path": "~/Songs"
     },
     {
       "name": "AlanWalkerAlone",
@@ -126,7 +136,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "alan_walker_alone"
+      "registry_name": "alan_walker_alone",
+      "path": "~/Songs"
     },
     {
       "name": "AlanWalkerSingMeToSleep",
@@ -135,7 +146,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "alan_walker_sing_me_to_sleep"
+      "registry_name": "alan_walker_sing_me_to_sleep",
+      "path": "~/Songs"
     },
     {
       "name": "GUIClose",
@@ -152,7 +164,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/GUI"
     },
     {
       "name": "AlanWalkerFadedGiver",
@@ -169,7 +182,89 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Song Giver"
+    },
+    {
+      "name": "AlanWalkerDarksideGiver",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_darkside_giver",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Song Giver"
+    },
+    {
+      "name": "AlanWalkerTheSpectreGiver",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_the_spectre_giver",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Song Giver"
+    },
+    {
+      "name": "AlanWalkerAloneGiver",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_alone_giver",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Song Giver"
+    },
+    {
+      "name": "AlanWalkerSingMeToSleepGiver",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_sing_me_to_sleep_giver",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Song Giver"
+    },
+    {
+      "name": "DJMusicAlanWalker",
+      "type": "tab",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dj_music_alan_walker"
     }
   ],
   "variable_elements": [],
@@ -217,8 +312,8 @@
   ],
   "language_map": {
     "en_us": {
-      "item.w.name": "W",
       "item.record.alan_walker_sing_me_to_sleep.desc": "Alan Walker Sing Me To Sleep",
+      "item.w.name": "W",
       "subtitles.alan_walker_-_the_spectre": "",
       "item.record.alan_walker_faded.desc": "Alan Walker Faded",
       "subtitles.alan_walker_-_faded": "",
@@ -230,6 +325,7 @@
       "item.record.alan_walker_alone.desc": "Alan Walker Alone",
       "item.alan_walker_sing_me_to_sleep.name": "Alan Walker Sing Me To Sleep",
       "item.playlist.name": "Playlist",
+      "itemGroup.tabdj_music_alan_walker": "DJ Music Alan Walker",
       "item.alan_walker_the_spectre.name": "Alan Walker The Spectre",
       "subtitles.alan_walker_-_sing_me_to_sleep": "",
       "item.record.alan_walker_the_spectre.desc": "Alan Walker The Spectre",
@@ -239,7 +335,28 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Song Giver",
+        "children": []
+      },
+      {
+        "name": "GUI",
+        "children": []
+      },
+      {
+        "name": "Songs",
+        "children": []
+      },
+      {
+        "name": "items",
+        "children": []
+      },
+      {
+        "name": "recipe",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "dj_music_alan_walker_playlist",

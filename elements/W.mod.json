@@ -8,7 +8,7 @@
     "name": "W",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:DJMusicAlanWalker"
     },
     "stackSize": 64,
     "enchantability": 0,

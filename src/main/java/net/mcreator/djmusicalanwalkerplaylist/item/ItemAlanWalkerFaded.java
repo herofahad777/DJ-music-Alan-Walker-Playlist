@@ -10,9 +10,9 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.ItemRecord;
 import net.minecraft.item.Item;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
+import net.mcreator.djmusicalanwalkerplaylist.creativetab.TabDJMusicAlanWalker;
 import net.mcreator.djmusicalanwalkerplaylist.ElementsDjMusicAlanWalkerPlaylistMod;
 
 @ElementsDjMusicAlanWalkerPlaylistMod.ModElement.Tag
@@ -40,7 +40,7 @@ public class ItemAlanWalkerFaded extends ElementsDjMusicAlanWalkerPlaylistMod.Mo
 					ElementsDjMusicAlanWalkerPlaylistMod.sounds.get(new ResourceLocation("dj_music_alan_walker_playlist:alan_walker_-_faded")));
 			setUnlocalizedName("alan_walker_faded");
 			setRegistryName("alan_walker_faded");
-			setCreativeTab(CreativeTabs.MISC);
+			setCreativeTab(TabDJMusicAlanWalker.tab);
 		}
 	}
 }

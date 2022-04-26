@@ -22,6 +22,11 @@ import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.gui.GuiButton;
 
 import net.mcreator.djmusicalanwalkerplaylist.procedure.ProcedureGUIClose;
+import net.mcreator.djmusicalanwalkerplaylist.procedure.ProcedureAlanWalkerTheSpectreGiver;
+import net.mcreator.djmusicalanwalkerplaylist.procedure.ProcedureAlanWalkerSingMeToSleepGiver;
+import net.mcreator.djmusicalanwalkerplaylist.procedure.ProcedureAlanWalkerFadedGiver;
+import net.mcreator.djmusicalanwalkerplaylist.procedure.ProcedureAlanWalkerDarksideGiver;
+import net.mcreator.djmusicalanwalkerplaylist.procedure.ProcedureAlanWalkerAloneGiver;
 import net.mcreator.djmusicalanwalkerplaylist.ElementsDjMusicAlanWalkerPlaylistMod;
 import net.mcreator.djmusicalanwalkerplaylist.DjMusicAlanWalkerPlaylistMod;
 
@@ -266,6 +271,41 @@ public class GuiAlanWalkerPlaylistGUI extends ElementsDjMusicAlanWalkerPlaylistM
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+		if (buttonID == 0) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ProcedureAlanWalkerFadedGiver.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 1) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ProcedureAlanWalkerDarksideGiver.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 2) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ProcedureAlanWalkerTheSpectreGiver.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 3) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ProcedureAlanWalkerAloneGiver.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 4) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ProcedureAlanWalkerSingMeToSleepGiver.executeProcedure($_dependencies);
+			}
+		}
 		if (buttonID == 5) {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();

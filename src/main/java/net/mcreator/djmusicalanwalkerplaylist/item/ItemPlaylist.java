@@ -9,10 +9,10 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 
+import net.mcreator.djmusicalanwalkerplaylist.creativetab.TabDJMusicAlanWalker;
 import net.mcreator.djmusicalanwalkerplaylist.ElementsDjMusicAlanWalkerPlaylistMod;
 
 @ElementsDjMusicAlanWalkerPlaylistMod.ModElement.Tag
@@ -39,7 +39,7 @@ public class ItemPlaylist extends ElementsDjMusicAlanWalkerPlaylistMod.ModElemen
 			maxStackSize = 64;
 			setUnlocalizedName("playlist");
 			setRegistryName("playlist");
-			setCreativeTab(CreativeTabs.MISC);
+			setCreativeTab(TabDJMusicAlanWalker.tab);
 		}
 
 		@Override

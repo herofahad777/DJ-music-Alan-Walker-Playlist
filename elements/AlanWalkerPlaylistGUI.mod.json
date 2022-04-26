@@ -27,6 +27,9 @@
         "type": "button",
         "data": {
           "text": "Faded",
+          "onClick": {
+            "name": "AlanWalkerFadedGiver"
+          },
           "width": 50,
           "height": 20,
           "name": "Faded",
@@ -38,6 +41,9 @@
         "type": "button",
         "data": {
           "text": "Darkside",
+          "onClick": {
+            "name": "AlanWalkerDarksideGiver"
+          },
           "width": 65,
           "height": 20,
           "name": "Darkside",
@@ -49,6 +55,9 @@
         "type": "button",
         "data": {
           "text": "The Spectre",
+          "onClick": {
+            "name": "AlanWalkerTheSpectreGiver"
+          },
           "width": 80,
           "height": 20,
           "name": "The Spectre",
@@ -60,6 +69,9 @@
         "type": "button",
         "data": {
           "text": "Alone",
+          "onClick": {
+            "name": "AlanWalkerAloneGiver"
+          },
           "width": 50,
           "height": 20,
           "name": "Alone",
@@ -71,6 +83,9 @@
         "type": "button",
         "data": {
           "text": "Sing Me To Sleep",
+          "onClick": {
+            "name": "AlanWalkerSingMeToSleepGiver"
+          },
           "width": 105,
           "height": 20,
           "name": "Sing Me To Sleep",

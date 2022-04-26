@@ -16,11 +16,11 @@ import net.minecraft.util.ActionResult;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 
 import net.mcreator.djmusicalanwalkerplaylist.procedure.ProcedureRightclickonAlanWalkerPlaylist;
+import net.mcreator.djmusicalanwalkerplaylist.creativetab.TabDJMusicAlanWalker;
 import net.mcreator.djmusicalanwalkerplaylist.ElementsDjMusicAlanWalkerPlaylistMod;
 
 import java.util.Map;
@@ -51,7 +51,7 @@ public class ItemAlanWalkerPlaylist extends ElementsDjMusicAlanWalkerPlaylistMod
 			maxStackSize = 1;
 			setUnlocalizedName("alan_walker_playlist");
 			setRegistryName("alan_walker_playlist");
-			setCreativeTab(CreativeTabs.MISC);
+			setCreativeTab(TabDJMusicAlanWalker.tab);
 			setContainerItem(this);
 		}
 

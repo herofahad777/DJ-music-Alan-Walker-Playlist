@@ -10,9 +10,9 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.ItemRecord;
 import net.minecraft.item.Item;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
+import net.mcreator.djmusicalanwalkerplaylist.creativetab.TabDJMusicAlanWalker;
 import net.mcreator.djmusicalanwalkerplaylist.ElementsDjMusicAlanWalkerPlaylistMod;
 
 @ElementsDjMusicAlanWalkerPlaylistMod.ModElement.Tag
@@ -40,7 +40,7 @@ public class ItemAlanWalkerTheSpectre extends ElementsDjMusicAlanWalkerPlaylistM
 					ElementsDjMusicAlanWalkerPlaylistMod.sounds.get(new ResourceLocation("dj_music_alan_walker_playlist:alan_walker_-_the_spectre")));
 			setUnlocalizedName("alan_walker_the_spectre");
 			setRegistryName("alan_walker_the_spectre");
-			setCreativeTab(CreativeTabs.MISC);
+			setCreativeTab(TabDJMusicAlanWalker.tab);
 		}
 	}
 }
