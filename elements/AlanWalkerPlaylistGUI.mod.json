@@ -117,6 +117,76 @@
           "x": 383,
           "y": 3
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Lily",
+          "onClick": {
+            "name": "AlanWalkerLilyGiver"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Lily",
+          "x": 7,
+          "y": 60
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "On My Way",
+          "onClick": {
+            "name": "AlanWalkerOnMyWayGiver"
+          },
+          "width": 70,
+          "height": 20,
+          "name": "On My Way",
+          "x": 59,
+          "y": 60
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Sky",
+          "onClick": {
+            "name": "AlanWalkerSkyGiver"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "Sky",
+          "x": 136,
+          "y": 60
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Alone PT II",
+          "onClick": {
+            "name": "AlanWalkerPT2Giver"
+          },
+          "width": 80,
+          "height": 20,
+          "name": "Alone PT II",
+          "x": 184,
+          "y": 60
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Ignite",
+          "onClick": {
+            "name": "AlanWalkerIgniteGiver"
+          },
+          "width": 55,
+          "height": 20,
+          "name": "Ignite",
+          "x": 273,
+          "y": 60
+        }
       }
     ]
   }

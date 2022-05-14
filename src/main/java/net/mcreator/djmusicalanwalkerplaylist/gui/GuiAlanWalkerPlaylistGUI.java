@@ -23,7 +23,12 @@ import net.minecraft.client.gui.GuiButton;
 
 import net.mcreator.djmusicalanwalkerplaylist.procedure.ProcedureGUIClose;
 import net.mcreator.djmusicalanwalkerplaylist.procedure.ProcedureAlanWalkerTheSpectreGiver;
+import net.mcreator.djmusicalanwalkerplaylist.procedure.ProcedureAlanWalkerSkyGiver;
 import net.mcreator.djmusicalanwalkerplaylist.procedure.ProcedureAlanWalkerSingMeToSleepGiver;
+import net.mcreator.djmusicalanwalkerplaylist.procedure.ProcedureAlanWalkerPT2Giver;
+import net.mcreator.djmusicalanwalkerplaylist.procedure.ProcedureAlanWalkerOnMyWayGiver;
+import net.mcreator.djmusicalanwalkerplaylist.procedure.ProcedureAlanWalkerLilyGiver;
+import net.mcreator.djmusicalanwalkerplaylist.procedure.ProcedureAlanWalkerIgniteGiver;
 import net.mcreator.djmusicalanwalkerplaylist.procedure.ProcedureAlanWalkerFadedGiver;
 import net.mcreator.djmusicalanwalkerplaylist.procedure.ProcedureAlanWalkerDarksideGiver;
 import net.mcreator.djmusicalanwalkerplaylist.procedure.ProcedureAlanWalkerAloneGiver;
@@ -157,6 +162,11 @@ public class GuiAlanWalkerPlaylistGUI extends ElementsDjMusicAlanWalkerPlaylistM
 			this.buttonList.add(new GuiButton(4, this.guiLeft + 290, this.guiTop + 32, 105, 20, "Sing Me To Sleep"));
 			this.buttonList.add(new GuiButton(5, this.guiLeft + 8, this.guiTop + 5, 40, 20, "Close"));
 			this.buttonList.add(new GuiButton(6, this.guiLeft + 387, this.guiTop + 5, 40, 20, ">>>"));
+			this.buttonList.add(new GuiButton(7, this.guiLeft + 11, this.guiTop + 62, 45, 20, "Lily"));
+			this.buttonList.add(new GuiButton(8, this.guiLeft + 63, this.guiTop + 62, 70, 20, "On My Way"));
+			this.buttonList.add(new GuiButton(9, this.guiLeft + 140, this.guiTop + 62, 40, 20, "Sky"));
+			this.buttonList.add(new GuiButton(10, this.guiLeft + 188, this.guiTop + 62, 80, 20, "Alone PT II"));
+			this.buttonList.add(new GuiButton(11, this.guiLeft + 277, this.guiTop + 62, 55, 20, "Ignite"));
 		}
 
 		@Override
@@ -311,6 +321,41 @@ public class GuiAlanWalkerPlaylistGUI extends ElementsDjMusicAlanWalkerPlaylistM
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				ProcedureGUIClose.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 7) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ProcedureAlanWalkerLilyGiver.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 8) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ProcedureAlanWalkerOnMyWayGiver.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 9) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ProcedureAlanWalkerSkyGiver.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 10) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ProcedureAlanWalkerPT2Giver.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 11) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ProcedureAlanWalkerIgniteGiver.executeProcedure($_dependencies);
 			}
 		}
 	}
