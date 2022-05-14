@@ -8,15 +8,6 @@
       }
     ]
   },
-  "alan_walker_-_alone": {
-    "category": "master",
-    "sounds": [
-      {
-        "name": "dj_music_alan_walker_playlist:alan_walker_-_alone",
-        "stream": false
-      }
-    ]
-  },
   "alan_walker_-_sing_me_to_sleep": {
     "category": "master",
     "sounds": [
@@ -40,6 +31,60 @@
     "sounds": [
       {
         "name": "dj_music_alan_walker_playlist:alan_walker_-_faded",
+        "stream": false
+      }
+    ]
+  },
+  "awlily": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "dj_music_alan_walker_playlist:alan20walker2c20k-391202620emelie20hollow20-20lily20lyrics",
+        "stream": false
+      }
+    ]
+  },
+  "aw_on_my_way": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "dj_music_alan_walker_playlist:alan20walker2c20sabrina20carpenter202620farruko20-20on20my20way",
+        "stream": false
+      }
+    ]
+  },
+  "aw_sky": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "dj_music_alan_walker_playlist:alan20walker202620alex20skrindo20-20sky",
+        "stream": false
+      }
+    ]
+  },
+  "aw_alone_pt_2": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "dj_music_alan_walker_playlist:alan20walker202620ava20max20-20alone2c20pt.20ii",
+        "stream": false
+      }
+    ]
+  },
+  "aw_ignite": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "dj_music_alan_walker_playlist:k-391_alan_walker_ignitelive_performance_at_vg-lista_with_julie_bergan_and_vinni",
+        "stream": false
+      }
+    ]
+  },
+  "alan_walker_-_alone_pt_1": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "dj_music_alan_walker_playlist:alan_walker_-_alone",
         "stream": false
       }
     ]

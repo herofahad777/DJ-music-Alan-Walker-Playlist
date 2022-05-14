@@ -58,8 +58,6 @@ public class ElementsDjMusicAlanWalkerPlaylistMod implements IFuelHandler, IWorl
 	public ElementsDjMusicAlanWalkerPlaylistMod() {
 		sounds.put(new ResourceLocation("dj_music_alan_walker_playlist", "alan_walker_-_the_spectre"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("dj_music_alan_walker_playlist", "alan_walker_-_the_spectre")));
-		sounds.put(new ResourceLocation("dj_music_alan_walker_playlist", "alan_walker_-_alone"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("dj_music_alan_walker_playlist", "alan_walker_-_alone")));
 		sounds.put(new ResourceLocation("dj_music_alan_walker_playlist", "alan_walker_-_sing_me_to_sleep"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("dj_music_alan_walker_playlist", "alan_walker_-_sing_me_to_sleep")));
 		sounds.put(new ResourceLocation("dj_music_alan_walker_playlist", "alan_walker_-_darkside_feat._au_ra_and_tomine_harket"),
@@ -67,6 +65,18 @@ public class ElementsDjMusicAlanWalkerPlaylistMod implements IFuelHandler, IWorl
 						new ResourceLocation("dj_music_alan_walker_playlist", "alan_walker_-_darkside_feat._au_ra_and_tomine_harket")));
 		sounds.put(new ResourceLocation("dj_music_alan_walker_playlist", "alan_walker_-_faded"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("dj_music_alan_walker_playlist", "alan_walker_-_faded")));
+		sounds.put(new ResourceLocation("dj_music_alan_walker_playlist", "awlily"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("dj_music_alan_walker_playlist", "awlily")));
+		sounds.put(new ResourceLocation("dj_music_alan_walker_playlist", "aw_on_my_way"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("dj_music_alan_walker_playlist", "aw_on_my_way")));
+		sounds.put(new ResourceLocation("dj_music_alan_walker_playlist", "aw_sky"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("dj_music_alan_walker_playlist", "aw_sky")));
+		sounds.put(new ResourceLocation("dj_music_alan_walker_playlist", "aw_alone_pt_2"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("dj_music_alan_walker_playlist", "aw_alone_pt_2")));
+		sounds.put(new ResourceLocation("dj_music_alan_walker_playlist", "aw_ignite"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("dj_music_alan_walker_playlist", "aw_ignite")));
+		sounds.put(new ResourceLocation("dj_music_alan_walker_playlist", "alan_walker_-_alone_pt_1"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("dj_music_alan_walker_playlist", "alan_walker_-_alone_pt_1")));
 	}
 
 	public void preInit(FMLPreInitializationEvent event) {

@@ -288,14 +288,6 @@
       "subtitle": ""
     },
     {
-      "name": "alan_walker_-_alone",
-      "files": [
-        "alan_walker_-_alone"
-      ],
-      "category": "master",
-      "subtitle": ""
-    },
-    {
       "name": "alan_walker_-_sing_me_to_sleep",
       "files": [
         "alan_walker_-_sing_me_to_sleep"
@@ -318,27 +310,81 @@
       ],
       "category": "master",
       "subtitle": ""
+    },
+    {
+      "name": "awlily",
+      "files": [
+        "alan20walker2c20k-391202620emelie20hollow20-20lily20lyrics"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "aw_on_my_way",
+      "files": [
+        "alan20walker2c20sabrina20carpenter202620farruko20-20on20my20way"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "aw_sky",
+      "files": [
+        "alan20walker202620alex20skrindo20-20sky"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "aw_alone_pt_2",
+      "files": [
+        "alan20walker202620ava20max20-20alone2c20pt.20ii"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "aw_ignite",
+      "files": [
+        "k-391_alan_walker_ignitelive_performance_at_vg-lista_with_julie_bergan_and_vinni"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "alan_walker_-_alone_pt_1",
+      "files": [
+        "alan_walker_-_alone"
+      ],
+      "category": "master",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "en_us": {
-      "item.record.alan_walker_sing_me_to_sleep.desc": "Alan Walker Sing Me To Sleep",
       "item.w.name": "W",
       "subtitles.alan_walker_-_the_spectre": "",
       "item.record.alan_walker_faded.desc": "Alan Walker Faded",
-      "subtitles.alan_walker_-_faded": "",
       "item.alan_walker_alone.name": "Alan Walker Alone",
-      "item.alan_walker_playlist.name": "Alan Walker Playlist",
       "item.alan_walker_faded.name": "Alan Walker Faded",
-      "subtitles.alan_walker_-_darkside_feat._au_ra_and_tomine_harket": "",
       "subtitles.alan_walker_-_alone": "",
       "item.record.alan_walker_alone.desc": "Alan Walker Alone",
-      "item.alan_walker_sing_me_to_sleep.name": "Alan Walker Sing Me To Sleep",
       "item.playlist.name": "Playlist",
+      "subtitles.aw_ignite": "",
       "itemGroup.tabdj_music_alan_walker": "DJ Music Alan Walker",
-      "item.alan_walker_the_spectre.name": "Alan Walker The Spectre",
+      "subtitles.aw_sky": "",
+      "subtitles.alan_walker_-_alone_pt_1": "",
       "subtitles.alan_walker_-_sing_me_to_sleep": "",
       "item.record.alan_walker_the_spectre.desc": "Alan Walker The Spectre",
+      "item.record.alan_walker_sing_me_to_sleep.desc": "Alan Walker Sing Me To Sleep",
+      "subtitles.alan_walker_-_faded": "",
+      "subtitles.awlily": "",
+      "subtitles.aw_on_my_way": "",
+      "item.alan_walker_playlist.name": "Alan Walker Playlist",
+      "subtitles.alan_walker_-_darkside_feat._au_ra_and_tomine_harket": "",
+      "item.alan_walker_sing_me_to_sleep.name": "Alan Walker Sing Me To Sleep",
+      "item.alan_walker_the_spectre.name": "Alan Walker The Spectre",
+      "subtitles.aw_alone_pt_2": "",
       "item.alan_walker_darkside.name": "Alan Walker Darkside",
       "item.record.alan_walker_darkside.desc": "Alan Walker Darkside"
     }
