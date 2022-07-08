@@ -22,6 +22,11 @@ import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.gui.GuiButton;
 
 import net.mcreator.djmusicalanwalkerplaylist.procedure.ProcedureGUIClose;
+import net.mcreator.djmusicalanwalkerplaylist.procedure.ProcedureAwTired;
+import net.mcreator.djmusicalanwalkerplaylist.procedure.ProcedureAwPlay;
+import net.mcreator.djmusicalanwalkerplaylist.procedure.ProcedureAwForce;
+import net.mcreator.djmusicalanwalkerplaylist.procedure.ProcedureAwDiamondHeartProcedure;
+import net.mcreator.djmusicalanwalkerplaylist.procedure.ProcedureAwAllFallsDown;
 import net.mcreator.djmusicalanwalkerplaylist.procedure.ProcedureAlanWalkerTheSpectreGiver;
 import net.mcreator.djmusicalanwalkerplaylist.procedure.ProcedureAlanWalkerSkyGiver;
 import net.mcreator.djmusicalanwalkerplaylist.procedure.ProcedureAlanWalkerSingMeToSleepGiver;
@@ -167,6 +172,11 @@ public class GuiAlanWalkerPlaylistGUI extends ElementsDjMusicAlanWalkerPlaylistM
 			this.buttonList.add(new GuiButton(9, this.guiLeft + 140, this.guiTop + 62, 40, 20, "Sky"));
 			this.buttonList.add(new GuiButton(10, this.guiLeft + 188, this.guiTop + 62, 80, 20, "Alone PT II"));
 			this.buttonList.add(new GuiButton(11, this.guiLeft + 277, this.guiTop + 62, 55, 20, "Ignite"));
+			this.buttonList.add(new GuiButton(12, this.guiLeft + 336, this.guiTop + 62, 90, 20, "Diamond Heart"));
+			this.buttonList.add(new GuiButton(13, this.guiLeft + 11, this.guiTop + 94, 95, 20, "All Falls Down"));
+			this.buttonList.add(new GuiButton(14, this.guiLeft + 116, this.guiTop + 94, 50, 20, "Force"));
+			this.buttonList.add(new GuiButton(15, this.guiLeft + 176, this.guiTop + 94, 50, 20, "Tired"));
+			this.buttonList.add(new GuiButton(16, this.guiLeft + 235, this.guiTop + 94, 45, 20, "Play"));
 		}
 
 		@Override
@@ -356,6 +366,41 @@ public class GuiAlanWalkerPlaylistGUI extends ElementsDjMusicAlanWalkerPlaylistM
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				ProcedureAlanWalkerIgniteGiver.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 12) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ProcedureAwDiamondHeartProcedure.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 13) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ProcedureAwAllFallsDown.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 14) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ProcedureAwForce.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 15) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ProcedureAwTired.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 16) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ProcedureAwPlay.executeProcedure($_dependencies);
 			}
 		}
 	}

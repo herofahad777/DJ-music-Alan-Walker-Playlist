@@ -3,13 +3,13 @@
   "_type": "musicdisc",
   "definition": {
     "texture": "walker_w",
-    "name": " Ignite",
-    "description": "Alan Walker Ignite",
+    "name": " Play",
+    "description": "Alan Walker Play",
     "creativeTab": {
       "value": "CUSTOM:DJMusicAlanWalker"
     },
     "music": {
-      "value": "CUSTOM:aw_ignite"
+      "value": "CUSTOM:aw_play"
     },
     "specialInfo": [],
     "hasGlow": false

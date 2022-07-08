@@ -88,5 +88,50 @@
         "stream": false
       }
     ]
+  },
+  "aw_diamond_heart": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "dj_music_alan_walker_playlist:alan_walker_-_diamond_heart_feat._sophia_somajo",
+        "stream": false
+      }
+    ]
+  },
+  "aw_all_falls_down": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "dj_music_alan_walker_playlist:alan_walker_-_all_falls_down_feat._noah_cyrus_with_digital_farm_animals",
+        "stream": false
+      }
+    ]
+  },
+  "aw_force": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "dj_music_alan_walker_playlist:alan_walker_-_force",
+        "stream": false
+      }
+    ]
+  },
+  "aw_tired": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "dj_music_alan_walker_playlist:alan_walker_ft._gavin_james_-_tired",
+        "stream": false
+      }
+    ]
+  },
+  "aw_play": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "dj_music_alan_walker_playlist:alan_walker_k-391_tungevaag_mangoo_-_play_alan_walkers_video",
+        "stream": false
+      }
+    ]
   }
 }

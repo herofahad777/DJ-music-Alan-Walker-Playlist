@@ -415,6 +415,146 @@
         ]
       },
       "path": "~/Song Giver"
+    },
+    {
+      "name": "AlanWalkerPlay",
+      "type": "musicdisc",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_play",
+      "path": "~/Songs"
+    },
+    {
+      "name": "AlanWalkerTired",
+      "type": "musicdisc",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_tired",
+      "path": "~/Songs"
+    },
+    {
+      "name": "AlanWalkerForce",
+      "type": "musicdisc",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_force",
+      "path": "~/Songs"
+    },
+    {
+      "name": "AlanWalkerDiamondHeart",
+      "type": "musicdisc",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_diamond_heart",
+      "path": "~/Songs"
+    },
+    {
+      "name": "AlanWalkerAllFallsDown",
+      "type": "musicdisc",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_all_falls_down",
+      "path": "~/Songs"
+    },
+    {
+      "name": "AwPlay",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aw_play",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Song Giver"
+    },
+    {
+      "name": "AwAllFallsDown",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aw_all_falls_down",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Song Giver"
+    },
+    {
+      "name": "AwTired",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aw_tired",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Song Giver"
+    },
+    {
+      "name": "AwForce",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aw_force",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Song Giver"
+    },
+    {
+      "name": "AwDiamondHeartProcedure",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aw_diamond_heart_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Song Giver"
     }
   ],
   "variable_elements": [],
@@ -498,44 +638,99 @@
       ],
       "category": "master",
       "subtitle": ""
+    },
+    {
+      "name": "aw_diamond_heart",
+      "files": [
+        "alan_walker_-_diamond_heart_feat._sophia_somajo"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "aw_all_falls_down",
+      "files": [
+        "alan_walker_-_all_falls_down_feat._noah_cyrus_with_digital_farm_animals"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "aw_force",
+      "files": [
+        "alan_walker_-_force"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "aw_tired",
+      "files": [
+        "alan_walker_ft._gavin_james_-_tired"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "aw_play",
+      "files": [
+        "alan_walker_k-391_tungevaag_mangoo_-_play_alan_walkers_video"
+      ],
+      "category": "master",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "en_us": {
-      "item.alan_walker_lily.name": "Alan Walker Lily",
-      "item.w.name": "W",
+      "item.record.alan_walker_diamond_heart.desc": "Alan Walker Diamond Heart",
       "subtitles.alan_walker_-_the_spectre": "",
-      "item.alan_walker_on_my_way.name": "Alan Walker On My Way",
+      "item.alan_walker_tired.name": " Tired",
+      "item.alan_walker_alone.name": " Alone",
+      "item.alan_walker_faded.name": " Faded",
+      "subtitles.aw_play": "",
+      "item.playlist.name": "Playlist",
+      "itemGroup.tabdj_music_alan_walker": "DJ Music Alan Walker",
+      "subtitles.alan_walker_-_alone_pt_1": "",
+      "item.alan_walker_force.name": "Force",
+      "subtitles.aw_tired": "",
+      "item.record.alan_walker_all_falls_down.desc": "Alan Walker All Falls Down",
+      "item.alan_walker_ignite.name": " Ignite",
+      "item.record.alan_walker_sky.desc": "Alan Walker Sky",
+      "subtitles.awlily": "",
+      "item.record.alan_walker_play.desc": "Alan Walker Play",
+      "item.record.alan_walker_ignite.desc": "Alan Walker Ignite",
+      "subtitles.alan_walker_-_darkside_feat._au_ra_and_tomine_harket": "",
+      "item.alan_walker_lily.name": " Lily",
+      "item.alan_walker_all_falls_down.name": "All Falls Down",
+      "item.w.name": "W",
+      "item.alan_walker_on_my_way.name": " On My Way",
       "item.record.alan_walker_faded.desc": "Alan Walker Faded",
-      "item.alan_walker_alone.name": "Alan Walker Alone",
       "item.record.alan_walker_alone_pt_2.desc": "Alan Walker Alone PT 2",
-      "item.alan_walker_faded.name": "Alan Walker Faded",
+      "item.alan_walker_play.name": " Play",
+      "item.record.alan_walker_tired.desc": "Alan Walker Tired",
       "subtitles.alan_walker_-_alone": "",
       "item.record.alan_walker_alone.desc": "Alan Walker Alone",
-      "item.playlist.name": "Playlist",
       "subtitles.aw_ignite": "",
-      "itemGroup.tabdj_music_alan_walker": "DJ Music Alan Walker",
+      "subtitles.aw_force": "",
       "subtitles.aw_sky": "",
-      "subtitles.alan_walker_-_alone_pt_1": "",
-      "item.alan_walker_alone_pt_2.name": "Alan Walker Alone PT 2",
-      "subtitles.alan_walker_-_sing_me_to_sleep": "",
+      "item.alan_walker_alone_pt_2.name": " Alone PT 2",
       "item.record.alan_walker_the_spectre.desc": "Alan Walker The Spectre",
-      "item.alan_walker_sky.name": "Alan Walker Sky",
+      "subtitles.alan_walker_-_sing_me_to_sleep": "",
+      "item.alan_walker_sky.name": " Sky",
       "item.record.alan_walker_sing_me_to_sleep.desc": "Alan Walker Sing Me To Sleep",
-      "item.alan_walker_ignite.name": "Alan Walker Ignite",
+      "subtitles.aw_diamond_heart": "",
       "subtitles.alan_walker_-_faded": "",
       "item.record.alan_walker_on_my_way.desc": "Alan Walker On My Way",
-      "subtitles.awlily": "",
       "subtitles.aw_on_my_way": "",
-      "item.record.alan_walker_sky.desc": "Alan Walker Sky",
       "item.record.alan_walker_lily.desc": "Alan Walker Lily",
-      "item.record.alan_walker_ignite.desc": "Alan Walker Ignite",
+      "item.record.alan_walker_force.desc": "Alan Walker Force",
       "item.alan_walker_playlist.name": "Alan Walker Playlist",
-      "subtitles.alan_walker_-_darkside_feat._au_ra_and_tomine_harket": "",
-      "item.alan_walker_sing_me_to_sleep.name": "Alan Walker Sing Me To Sleep",
-      "item.alan_walker_the_spectre.name": "Alan Walker The Spectre",
+      "subtitles.aw_all_falls_down": "",
+      "item.alan_walker_diamond_heart.name": "Diamond Heart",
+      "item.alan_walker_sing_me_to_sleep.name": " Sing Me To Sleep",
+      "item.alan_walker_the_spectre.name": " The Spectre",
       "subtitles.aw_alone_pt_2": "",
-      "item.alan_walker_darkside.name": "Alan Walker Darkside",
+      "item.alan_walker_darkside.name": " Darkside",
       "item.record.alan_walker_darkside.desc": "Alan Walker Darkside"
     }
   },
@@ -567,7 +762,8 @@
   "workspaceSettings": {
     "modid": "dj_music_alan_walker_playlist",
     "modName": "DJ Music Alan Walker Playlist",
-    "version": "1.0.0",
+    "version": "3.0",
+    "description": "Alan Walker Songs",
     "author": "Fahad Sameer Shaikh, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
@@ -578,7 +774,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.12.2",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": "Created Using Mcreator",
     "modElementsPackage": "net.mcreator.djmusicalanwalkerplaylist",
     "lockBaseModFiles": false
   },

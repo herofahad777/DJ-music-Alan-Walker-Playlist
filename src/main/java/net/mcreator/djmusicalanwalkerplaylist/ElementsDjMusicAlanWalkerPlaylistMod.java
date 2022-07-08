@@ -77,6 +77,16 @@ public class ElementsDjMusicAlanWalkerPlaylistMod implements IFuelHandler, IWorl
 				new net.minecraft.util.SoundEvent(new ResourceLocation("dj_music_alan_walker_playlist", "aw_ignite")));
 		sounds.put(new ResourceLocation("dj_music_alan_walker_playlist", "alan_walker_-_alone_pt_1"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("dj_music_alan_walker_playlist", "alan_walker_-_alone_pt_1")));
+		sounds.put(new ResourceLocation("dj_music_alan_walker_playlist", "aw_diamond_heart"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("dj_music_alan_walker_playlist", "aw_diamond_heart")));
+		sounds.put(new ResourceLocation("dj_music_alan_walker_playlist", "aw_all_falls_down"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("dj_music_alan_walker_playlist", "aw_all_falls_down")));
+		sounds.put(new ResourceLocation("dj_music_alan_walker_playlist", "aw_force"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("dj_music_alan_walker_playlist", "aw_force")));
+		sounds.put(new ResourceLocation("dj_music_alan_walker_playlist", "aw_tired"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("dj_music_alan_walker_playlist", "aw_tired")));
+		sounds.put(new ResourceLocation("dj_music_alan_walker_playlist", "aw_play"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("dj_music_alan_walker_playlist", "aw_play")));
 	}
 
 	public void preInit(FMLPreInitializationEvent event) {

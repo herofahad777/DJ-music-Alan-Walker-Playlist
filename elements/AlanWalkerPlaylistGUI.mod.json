@@ -187,6 +187,76 @@
           "x": 273,
           "y": 60
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Diamond Heart",
+          "onClick": {
+            "name": "AwDiamondHeartProcedure"
+          },
+          "width": 90,
+          "height": 20,
+          "name": "Diamond Heart",
+          "x": 332,
+          "y": 60
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "All Falls Down",
+          "onClick": {
+            "name": "AwAllFallsDown"
+          },
+          "width": 95,
+          "height": 20,
+          "name": "All Falls Down",
+          "x": 7,
+          "y": 92
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Force",
+          "onClick": {
+            "name": "AwForce"
+          },
+          "width": 50,
+          "height": 20,
+          "name": "Force",
+          "x": 112,
+          "y": 92
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Tired",
+          "onClick": {
+            "name": "AwTired"
+          },
+          "width": 50,
+          "height": 20,
+          "name": "Tired",
+          "x": 172,
+          "y": 92
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Play",
+          "onClick": {
+            "name": "AwPlay"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Play",
+          "x": 231,
+          "y": 92
+        }
       }
     ]
   }
