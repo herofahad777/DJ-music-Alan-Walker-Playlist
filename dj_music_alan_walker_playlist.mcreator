@@ -1,0 +1,959 @@
+{
+  "id_map": {
+    "GUI": 1
+  },
+  "mod_elements": [
+    {
+      "name": "W",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "w",
+      "path": "~/items"
+    },
+    {
+      "name": "AlanWalkerPlaylist",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_playlist",
+      "path": "~/items"
+    },
+    {
+      "name": "Playlist",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "playlist",
+      "path": "~/items"
+    },
+    {
+      "name": "WPlaylist",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "w_playlist",
+      "path": "~/recipe"
+    },
+    {
+      "name": "PlaylistRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "playlist_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "AlanWalkerPlaylistGUI",
+      "type": "gui",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1
+      },
+      "registry_name": "alan_walker_playlist_gui",
+      "path": "~/GUI"
+    },
+    {
+      "name": "RightclickonAlanWalkerPlaylist",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rightclickon_alan_walker_playlist",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "AlanWalkerDarkside",
+      "type": "musicdisc",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_darkside",
+      "path": "~/Songs"
+    },
+    {
+      "name": "AlanWalkerFaded",
+      "type": "musicdisc",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_faded",
+      "path": "~/Songs"
+    },
+    {
+      "name": "AlanWalkerTheSpectre",
+      "type": "musicdisc",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_the_spectre",
+      "path": "~/Songs"
+    },
+    {
+      "name": "AlanWalkerAlone",
+      "type": "musicdisc",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_alone",
+      "path": "~/Songs"
+    },
+    {
+      "name": "AlanWalkerSingMeToSleep",
+      "type": "musicdisc",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_sing_me_to_sleep",
+      "path": "~/Songs"
+    },
+    {
+      "name": "GUIClose",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gui_close",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "AlanWalkerFadedGiver",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_faded_giver",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Song Giver"
+    },
+    {
+      "name": "AlanWalkerDarksideGiver",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_darkside_giver",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Song Giver"
+    },
+    {
+      "name": "AlanWalkerTheSpectreGiver",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_the_spectre_giver",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Song Giver"
+    },
+    {
+      "name": "AlanWalkerAloneGiver",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_alone_giver",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Song Giver"
+    },
+    {
+      "name": "AlanWalkerSingMeToSleepGiver",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_sing_me_to_sleep_giver",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Song Giver"
+    },
+    {
+      "name": "DJMusicAlanWalker",
+      "type": "tab",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dj_music_alan_walker"
+    },
+    {
+      "name": "WItem",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "w_item",
+      "path": "~/recipe"
+    },
+    {
+      "name": "AlanWalkerAlonePT2",
+      "type": "musicdisc",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_alone_pt_2",
+      "path": "~/Songs"
+    },
+    {
+      "name": "AlanWalkerSky",
+      "type": "musicdisc",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_sky",
+      "path": "~/Songs"
+    },
+    {
+      "name": "AlanWalkerLily",
+      "type": "musicdisc",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_lily",
+      "path": "~/Songs"
+    },
+    {
+      "name": "AlanWalkerOnMyWay",
+      "type": "musicdisc",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_on_my_way",
+      "path": "~/Songs"
+    },
+    {
+      "name": "AlanWalkerIginite",
+      "type": "musicdisc",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_ignite",
+      "path": "~/Songs"
+    },
+    {
+      "name": "AlanWalkerLilyGiver",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_lily_giver",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Song Giver"
+    },
+    {
+      "name": "AlanWalkerOnMyWayGiver",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_on_my_way_giver",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Song Giver"
+    },
+    {
+      "name": "AlanWalkerSkyGiver",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_sky_giver",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Song Giver"
+    },
+    {
+      "name": "AlanWalkerPT2Giver",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_pt_2_giver",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Song Giver"
+    },
+    {
+      "name": "AlanWalkerIgniteGiver",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_ignite_giver",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Song Giver"
+    },
+    {
+      "name": "AlanWalkerPlay",
+      "type": "musicdisc",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_play",
+      "path": "~/Songs"
+    },
+    {
+      "name": "AlanWalkerTired",
+      "type": "musicdisc",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_tired",
+      "path": "~/Songs"
+    },
+    {
+      "name": "AlanWalkerForce",
+      "type": "musicdisc",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_force",
+      "path": "~/Songs"
+    },
+    {
+      "name": "AlanWalkerDiamondHeart",
+      "type": "musicdisc",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_diamond_heart",
+      "path": "~/Songs"
+    },
+    {
+      "name": "AlanWalkerAllFallsDown",
+      "type": "musicdisc",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_all_falls_down",
+      "path": "~/Songs"
+    },
+    {
+      "name": "AwPlay",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aw_playgiver",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Song Giver"
+    },
+    {
+      "name": "AwAllFallsDown",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aw_all_falls_downgiver",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Song Giver"
+    },
+    {
+      "name": "AwTired",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aw_tiredgiver",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Song Giver"
+    },
+    {
+      "name": "AwForce",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aw_forcegiver",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Song Giver"
+    },
+    {
+      "name": "AwDiamondHeartProcedure",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aw_diamond_heart_proceduregiver",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Song Giver"
+    },
+    {
+      "name": "AlanWalkerUnity",
+      "type": "musicdisc",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_unity",
+      "path": "~/Songs"
+    },
+    {
+      "name": "AlanWalkerHope",
+      "type": "musicdisc",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_hope",
+      "path": "~/Songs"
+    },
+    {
+      "name": "AlanWalkerStrangerThings",
+      "type": "musicdisc",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_stranger_things",
+      "path": "~/Songs"
+    },
+    {
+      "name": "AlanWalkerHymnForTheWeekend",
+      "type": "musicdisc",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_hymn_for_the_weekend",
+      "path": "~/Songs"
+    },
+    {
+      "name": "AlanWalkerMemories",
+      "type": "musicdisc",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alan_walker_memories",
+      "path": "~/Songs"
+    },
+    {
+      "name": "AwHopeGiver",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aw_hope_giver",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Song Giver"
+    },
+    {
+      "name": "AwStrangerThingsGiver",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aw_stranger_things_giver",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Song Giver"
+    },
+    {
+      "name": "AwHymnForTheWeekendGiver",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aw_hymn_for_the_weekend_giver",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Song Giver"
+    },
+    {
+      "name": "AwMemories",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aw_memoriesgiver",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Song Giver"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "alan_walker_-_the_spectre",
+      "files": [
+        "alan_walker_-_the_spectre"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "alan_walker_-_sing_me_to_sleep",
+      "files": [
+        "alan_walker_-_sing_me_to_sleep"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "alan_walker_-_darkside_feat._au_ra_and_tomine_harket",
+      "files": [
+        "alan_walker_-_darkside_feat._au_ra_and_tomine_harket"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "alan_walker_-_faded",
+      "files": [
+        "alan_walker_-_faded"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "awlily",
+      "files": [
+        "alan20walker2c20k-391202620emelie20hollow20-20lily20lyrics"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "aw_on_my_way",
+      "files": [
+        "alan20walker2c20sabrina20carpenter202620farruko20-20on20my20way"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "aw_sky",
+      "files": [
+        "alan20walker202620alex20skrindo20-20sky"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "aw_alone_pt_2",
+      "files": [
+        "alan20walker202620ava20max20-20alone2c20pt.20ii"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "aw_ignite",
+      "files": [
+        "k-391_alan_walker_ignitelive_performance_at_vg-lista_with_julie_bergan_and_vinni"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "alan_walker_-_alone_pt_1",
+      "files": [
+        "alan_walker_-_alone"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "aw_diamond_heart",
+      "files": [
+        "alan_walker_-_diamond_heart_feat._sophia_somajo"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "aw_all_falls_down",
+      "files": [
+        "alan_walker_-_all_falls_down_feat._noah_cyrus_with_digital_farm_animals"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "aw_force",
+      "files": [
+        "alan_walker_-_force"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "aw_tired",
+      "files": [
+        "alan_walker_ft._gavin_james_-_tired"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "aw_play",
+      "files": [
+        "alan_walker_k-391_tungevaag_mangoo_-_play_alan_walkers_video"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "aw_unity",
+      "files": [
+        "alan_x_walkers_-_unity"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "aw_hope",
+      "files": [
+        "alan_walker_-_hope"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "aw_hymn_for_the_weekend",
+      "files": [
+        "alan_walker_vs_coldplay_-_hymn_for_the_weekend_remix"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "aw_memories",
+      "files": [
+        "alan_walker_-_memories"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "aw_stranger_things",
+      "files": [
+        "kygo_-_stranger_things_ft._onerepublic_alan_walker_remix"
+      ],
+      "category": "master",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.record.alan_walker_diamond_heart.desc": "Alan Walker Diamond Heart",
+      "subtitles.alan_walker_-_the_spectre": "",
+      "item.alan_walker_tired.name": " Tired",
+      "item.alan_walker_alone.name": " Alone",
+      "subtitles.aw_hope": "",
+      "item.record.alan_walker_stranger_things.desc": "Alan Walker Stranger Things",
+      "subtitles.aw_unity": "",
+      "item.alan_walker_faded.name": " Faded",
+      "subtitles.aw_play": "",
+      "item.playlist.name": "Playlist",
+      "itemGroup.tabdj_music_alan_walker": "DJ Music Alan Walker",
+      "subtitles.alan_walker_-_alone_pt_1": "",
+      "item.alan_walker_force.name": "Force",
+      "item.alan_walker_hope.name": "Hope",
+      "item.alan_walker_unity.name": "Unity",
+      "subtitles.aw_tired": "",
+      "item.record.alan_walker_all_falls_down.desc": "Alan Walker All Falls Down",
+      "item.alan_walker_ignite.name": " Ignite",
+      "item.record.alan_walker_sky.desc": "Alan Walker Sky",
+      "subtitles.awlily": "",
+      "item.record.alan_walker_play.desc": "Alan Walker Play",
+      "subtitles.aw_stranger_things": "",
+      "item.record.alan_walker_ignite.desc": "Alan Walker Ignite",
+      "subtitles.alan_walker_-_darkside_feat._au_ra_and_tomine_harket": "",
+      "item.record.alan_walker_unity.desc": "Alan Walker Unity",
+      "item.alan_walker_memories.name": "Memories",
+      "item.record.alan_walker_memories.desc": "Alan Walker Memories",
+      "item.alan_walker_lily.name": " Lily",
+      "item.alan_walker_all_falls_down.name": "All Falls Down",
+      "item.alan_walker_hymn_for_the_weekend.name": "Hymn For The Weekend",
+      "item.w.name": "W",
+      "item.alan_walker_on_my_way.name": " On My Way",
+      "item.record.alan_walker_faded.desc": "Alan Walker Faded",
+      "item.record.alan_walker_alone_pt_2.desc": "Alan Walker Alone PT 2",
+      "item.alan_walker_play.name": " Play",
+      "item.record.alan_walker_tired.desc": "Alan Walker Tired",
+      "subtitles.alan_walker_-_alone": "",
+      "item.record.alan_walker_hymn_for_the_weekend.desc": "Alan Walker x Coldplay - Hymn For The Weekend",
+      "item.record.alan_walker_alone.desc": "Alan Walker Alone",
+      "subtitles.aw_ignite": "",
+      "subtitles.aw_force": "",
+      "subtitles.aw_sky": "",
+      "item.alan_walker_alone_pt_2.name": " Alone PT 2",
+      "subtitles.aw_hymn_for_the_weekend": "",
+      "item.record.alan_walker_the_spectre.desc": "Alan Walker The Spectre",
+      "subtitles.alan_walker_-_sing_me_to_sleep": "",
+      "item.alan_walker_sky.name": " Sky",
+      "item.record.alan_walker_sing_me_to_sleep.desc": "Alan Walker Sing Me To Sleep",
+      "subtitles.aw_diamond_heart": "",
+      "subtitles.aw_memories": "",
+      "subtitles.alan_walker_-_faded": "",
+      "item.record.alan_walker_on_my_way.desc": "Alan Walker On My Way",
+      "subtitles.aw_on_my_way": "",
+      "item.record.alan_walker_lily.desc": "Alan Walker Lily",
+      "item.alan_walker_stranger_things.name": "Stranger Things",
+      "item.record.alan_walker_force.desc": "Alan Walker Force",
+      "item.alan_walker_playlist.name": "Alan Walker Playlist",
+      "subtitles.aw_all_falls_down": "",
+      "item.alan_walker_diamond_heart.name": "Diamond Heart",
+      "item.alan_walker_sing_me_to_sleep.name": " Sing Me To Sleep",
+      "item.alan_walker_the_spectre.name": " The Spectre",
+      "item.record.alan_walker_hope.desc": "Alan Walker Hope",
+      "subtitles.aw_alone_pt_2": "",
+      "item.alan_walker_darkside.name": " Darkside",
+      "item.record.alan_walker_darkside.desc": "Alan Walker Darkside"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Song Giver",
+        "children": []
+      },
+      {
+        "name": "GUI",
+        "children": []
+      },
+      {
+        "name": "Songs",
+        "children": []
+      },
+      {
+        "name": "items",
+        "children": []
+      },
+      {
+        "name": "recipe",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "dj_music_alan_walker_playlist",
+    "modName": "DJ Music Alan Walker Playlist",
+    "version": "3.0",
+    "description": "Alan Walker Songs",
+    "author": "Fahad Sameer Shaikh, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.12.2",
+    "credits": "Created Using Mcreator",
+    "modElementsPackage": "net.mcreator.djmusicalanwalkerplaylist",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

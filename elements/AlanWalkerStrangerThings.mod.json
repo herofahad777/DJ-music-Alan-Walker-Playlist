@@ -1,0 +1,17 @@
+{
+  "_fv": 18,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "walker_w",
+    "name": "Stranger Things",
+    "description": "Alan Walker Stranger Things",
+    "creativeTab": {
+      "value": "CUSTOM:DJMusicAlanWalker"
+    },
+    "music": {
+      "value": "CUSTOM:aw_stranger_things"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

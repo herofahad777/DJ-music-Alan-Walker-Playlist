@@ -1,0 +1,17 @@
+{
+  "_fv": 18,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "walker_w",
+    "name": " On My Way",
+    "description": "Alan Walker On My Way",
+    "creativeTab": {
+      "value": "CUSTOM:DJMusicAlanWalker"
+    },
+    "music": {
+      "value": "CUSTOM:aw_on_my_way"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

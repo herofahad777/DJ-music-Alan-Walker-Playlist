@@ -1,0 +1,17 @@
+{
+  "_fv": 18,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "walker_w",
+    "name": " Alone",
+    "description": "Alan Walker Alone",
+    "creativeTab": {
+      "value": "CUSTOM:DJMusicAlanWalker"
+    },
+    "music": {
+      "value": "CUSTOM:alan_walker_-_alone"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

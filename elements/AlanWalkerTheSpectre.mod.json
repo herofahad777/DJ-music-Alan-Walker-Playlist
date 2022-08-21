@@ -1,0 +1,17 @@
+{
+  "_fv": 18,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "walker_w",
+    "name": " The Spectre",
+    "description": "Alan Walker The Spectre",
+    "creativeTab": {
+      "value": "CUSTOM:DJMusicAlanWalker"
+    },
+    "music": {
+      "value": "CUSTOM:alan_walker_-_the_spectre"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

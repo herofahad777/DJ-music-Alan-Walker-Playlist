@@ -1,0 +1,17 @@
+{
+  "_fv": 18,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "walker_w",
+    "name": " Play",
+    "description": "Alan Walker Play",
+    "creativeTab": {
+      "value": "CUSTOM:DJMusicAlanWalker"
+    },
+    "music": {
+      "value": "CUSTOM:aw_play"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

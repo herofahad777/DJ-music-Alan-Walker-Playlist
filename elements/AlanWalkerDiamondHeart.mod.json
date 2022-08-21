@@ -1,0 +1,17 @@
+{
+  "_fv": 18,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "walker_w",
+    "name": "Diamond Heart",
+    "description": "Alan Walker Diamond Heart",
+    "creativeTab": {
+      "value": "CUSTOM:DJMusicAlanWalker"
+    },
+    "music": {
+      "value": "CUSTOM:aw_diamond_heart"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

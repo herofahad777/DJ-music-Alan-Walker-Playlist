@@ -1,0 +1,17 @@
+{
+  "_fv": 18,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "walker_w",
+    "name": " Sing Me To Sleep",
+    "description": "Alan Walker Sing Me To Sleep",
+    "creativeTab": {
+      "value": "CUSTOM:DJMusicAlanWalker"
+    },
+    "music": {
+      "value": "CUSTOM:alan_walker_-_sing_me_to_sleep"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

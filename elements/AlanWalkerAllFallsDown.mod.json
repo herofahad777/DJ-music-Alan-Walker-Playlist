@@ -1,0 +1,17 @@
+{
+  "_fv": 18,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "walker_w",
+    "name": "All Falls Down",
+    "description": "Alan Walker All Falls Down",
+    "creativeTab": {
+      "value": "CUSTOM:DJMusicAlanWalker"
+    },
+    "music": {
+      "value": "CUSTOM:aw_all_falls_down"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

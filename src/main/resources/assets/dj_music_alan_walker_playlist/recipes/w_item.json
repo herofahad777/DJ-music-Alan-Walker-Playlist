@@ -1,0 +1,44 @@
+{
+  "group": "dj_music_alan_walker_playlist",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cobblestone"
+    },
+    "1": {
+      "item": "minecraft:planks",
+      "data": 32767
+    },
+    "2": {
+      "item": "minecraft:cobblestone"
+    },
+    "3": {
+      "item": "minecraft:torch"
+    },
+    "4": {
+      "item": "minecraft:torch"
+    },
+    "5": {
+      "item": "minecraft:torch"
+    },
+    "6": {
+      "item": "minecraft:chest"
+    },
+    "7": {
+      "item": "minecraft:planks",
+      "data": 32767
+    },
+    "8": {
+      "item": "minecraft:chest"
+    }
+  },
+  "result": {
+    "item": "dj_music_alan_walker_playlist:w",
+    "count": 1
+  }
+}

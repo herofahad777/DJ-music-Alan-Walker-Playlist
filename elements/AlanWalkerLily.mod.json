@@ -1,0 +1,17 @@
+{
+  "_fv": 18,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "walker_w",
+    "name": " Lily",
+    "description": "Alan Walker Lily",
+    "creativeTab": {
+      "value": "CUSTOM:DJMusicAlanWalker"
+    },
+    "music": {
+      "value": "CUSTOM:awlily"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

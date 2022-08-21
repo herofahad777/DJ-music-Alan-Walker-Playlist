@@ -1,0 +1,30 @@
+{
+  "group": "dj_music_alan_walker_playlist",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    " 4 ",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "dj_music_alan_walker_playlist:w"
+    },
+    "2": {
+      "item": "dj_music_alan_walker_playlist:w"
+    },
+    "4": {
+      "item": "dj_music_alan_walker_playlist:playlist"
+    },
+    "6": {
+      "item": "dj_music_alan_walker_playlist:w"
+    },
+    "8": {
+      "item": "dj_music_alan_walker_playlist:w"
+    }
+  },
+  "result": {
+    "item": "dj_music_alan_walker_playlist:alan_walker_playlist",
+    "count": 1
+  }
+}

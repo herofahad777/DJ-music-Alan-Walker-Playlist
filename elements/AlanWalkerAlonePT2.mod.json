@@ -1,0 +1,17 @@
+{
+  "_fv": 18,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "walker_w",
+    "name": " Alone PT 2",
+    "description": "Alan Walker Alone PT 2",
+    "creativeTab": {
+      "value": "CUSTOM:DJMusicAlanWalker"
+    },
+    "music": {
+      "value": "CUSTOM:aw_alone_pt_2"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

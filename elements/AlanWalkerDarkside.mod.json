@@ -1,0 +1,17 @@
+{
+  "_fv": 18,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "walker_w",
+    "name": " Darkside",
+    "description": "Alan Walker Darkside",
+    "creativeTab": {
+      "value": "CUSTOM:DJMusicAlanWalker"
+    },
+    "music": {
+      "value": "CUSTOM:alan_walker_-_darkside_feat._au_ra_and_tomine_harket"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

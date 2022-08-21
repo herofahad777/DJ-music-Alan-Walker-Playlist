@@ -1,0 +1,17 @@
+{
+  "_fv": 18,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "walker_w",
+    "name": "Hymn For The Weekend",
+    "description": "Alan Walker x Coldplay - Hymn For The Weekend",
+    "creativeTab": {
+      "value": "CUSTOM:DJMusicAlanWalker"
+    },
+    "music": {
+      "value": "CUSTOM:aw_hymn_for_the_weekend"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

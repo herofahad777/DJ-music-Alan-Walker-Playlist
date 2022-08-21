@@ -1,0 +1,319 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 435,
+    "height": 245,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Alan Walker Playlist",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Alan Walker Playlist",
+          "x": 162,
+          "y": 8
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Faded",
+          "onClick": {
+            "name": "AlanWalkerFadedGiver"
+          },
+          "width": 50,
+          "height": 20,
+          "name": "Faded",
+          "x": 4,
+          "y": 27
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Darkside",
+          "onClick": {
+            "name": "AlanWalkerDarksideGiver"
+          },
+          "width": 65,
+          "height": 20,
+          "name": "Darkside",
+          "x": 54,
+          "y": 27
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "The Spectre",
+          "onClick": {
+            "name": "AlanWalkerTheSpectreGiver"
+          },
+          "width": 80,
+          "height": 20,
+          "name": "The Spectre",
+          "x": 119,
+          "y": 27
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Alone",
+          "onClick": {
+            "name": "AlanWalkerAloneGiver"
+          },
+          "width": 50,
+          "height": 20,
+          "name": "Alone",
+          "x": 199,
+          "y": 27
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Sing Me To Sleep",
+          "onClick": {
+            "name": "AlanWalkerSingMeToSleepGiver"
+          },
+          "width": 105,
+          "height": 20,
+          "name": "Sing Me To Sleep",
+          "x": 249,
+          "y": 27
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Close",
+          "onClick": {
+            "name": "GUIClose"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "Close",
+          "x": 4,
+          "y": 3
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": ">>>",
+          "width": 40,
+          "height": 20,
+          "name": ">>>",
+          "x": 383,
+          "y": 3
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Lily",
+          "onClick": {
+            "name": "AlanWalkerLilyGiver"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Lily",
+          "x": 354,
+          "y": 27
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "On My Way",
+          "onClick": {
+            "name": "AlanWalkerOnMyWayGiver"
+          },
+          "width": 70,
+          "height": 20,
+          "name": "On My Way",
+          "x": 4,
+          "y": 48
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Sky",
+          "onClick": {
+            "name": "AlanWalkerSkyGiver"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "Sky",
+          "x": 74,
+          "y": 48
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Alone PT II",
+          "onClick": {
+            "name": "AlanWalkerPT2Giver"
+          },
+          "width": 80,
+          "height": 20,
+          "name": "Alone PT II",
+          "x": 114,
+          "y": 48
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Ignite",
+          "onClick": {
+            "name": "AlanWalkerIgniteGiver"
+          },
+          "width": 55,
+          "height": 20,
+          "name": "Ignite",
+          "x": 194,
+          "y": 48
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Diamond Heart",
+          "onClick": {
+            "name": "AwDiamondHeartProcedure"
+          },
+          "width": 90,
+          "height": 20,
+          "name": "Diamond Heart",
+          "x": 249,
+          "y": 48
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "All Falls Down",
+          "onClick": {
+            "name": "AwAllFallsDown"
+          },
+          "width": 95,
+          "height": 20,
+          "name": "All Falls Down",
+          "x": 4,
+          "y": 69
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Force",
+          "onClick": {
+            "name": "AwForce"
+          },
+          "width": 50,
+          "height": 20,
+          "name": "Force",
+          "x": 339,
+          "y": 48
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Tired",
+          "onClick": {
+            "name": "AwTired"
+          },
+          "width": 50,
+          "height": 20,
+          "name": "Tired",
+          "x": 99,
+          "y": 69
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Play",
+          "onClick": {
+            "name": "AwPlay"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Play",
+          "x": 149,
+          "y": 69
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Hope",
+          "onClick": {
+            "name": "AwHopeGiver"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Hope",
+          "x": 194,
+          "y": 69
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Stranger Things",
+          "onClick": {
+            "name": "AwStrangerThingsGiver"
+          },
+          "width": 100,
+          "height": 20,
+          "name": "Stranger Things",
+          "x": 239,
+          "y": 69
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Hymn For The Weekend",
+          "onClick": {
+            "name": "AwHymnForTheWeekendGiver"
+          },
+          "width": 125,
+          "height": 20,
+          "name": "Hymn For The Weekend",
+          "x": 4,
+          "y": 90
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Memories",
+          "onClick": {
+            "name": "AwMemories"
+          },
+          "width": 65,
+          "height": 20,
+          "name": "Memories",
+          "x": 129,
+          "y": 90
+        }
+      }
+    ]
+  }
+}

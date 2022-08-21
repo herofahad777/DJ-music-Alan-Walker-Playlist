@@ -1,0 +1,17 @@
+{
+  "_fv": 18,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "walker_w",
+    "name": " Ignite",
+    "description": "Alan Walker Ignite",
+    "creativeTab": {
+      "value": "CUSTOM:DJMusicAlanWalker"
+    },
+    "music": {
+      "value": "CUSTOM:aw_ignite"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}
