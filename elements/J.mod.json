@@ -1,0 +1,12 @@
+{
+  "_fv": 18,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "J",
+    "keyBindingName": "J",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "Check"
+    }
+  }
+}
