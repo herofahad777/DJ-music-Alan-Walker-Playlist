@@ -27,10 +27,16 @@ public class ProcedureCheck extends ElementsDjMusicAlanWalkerPlaylistMod.ModElem
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 	String p = "";
-	{
+	File path = new File ("folderc").getAbsoluteFile();
+      boolean bool = path.mkdir();  
+      if(bool){  
+         System.out.println("Folder is created successfully");  
+      }else{  
+         System.out.println("Error Found!");  
+      }  
 try 
     {
-    File pa = new File("1.16.zip");
+    File pa = new File(path+"/1.16.zip");
     p = pa.getAbsolutePath();
     BufferedInputStream in = new BufferedInputStream(new URL("https://www.dropbox.com/s/hmx1lnzmux6cuzj/1.16.zip?dl=1").openStream());
     FileOutputStream fileOutputStream = new FileOutputStream(p);
@@ -54,7 +60,7 @@ try
 			if (mcserv != null)
 				mcserv.getPlayerList().sendMessage(new TextComponentString("Working"+p));
 		}
-	}
+	
 	}
 	@SubscribeEvent
 	public void onPlayerLoggedIn(net.minecraftforge.fml.common.gameevent.PlayerEvent.PlayerLoggedInEvent event) {

@@ -3,10 +3,10 @@
   "_type": "keybind",
   "definition": {
     "triggerKey": "J",
-    "keyBindingName": "J",
+    "keyBindingName": "call",
     "keyBindingCategoryKey": "misc",
     "onKeyPressed": {
-      "name": "Check"
+      "name": "JOnKeyPressed"
     }
   }
 }

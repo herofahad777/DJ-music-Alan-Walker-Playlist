@@ -22,7 +22,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.client.settings.KeyBinding;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.djmusicalanwalkerplaylist.procedure.ProcedureCheck;
+import net.mcreator.djmusicalanwalkerplaylist.procedure.ProcedureJOnKeyPressed;
 import net.mcreator.djmusicalanwalkerplaylist.ElementsDjMusicAlanWalkerPlaylistMod;
 import net.mcreator.djmusicalanwalkerplaylist.DjMusicAlanWalkerPlaylistMod;
 
@@ -89,8 +89,7 @@ public class KeyBindingJ extends ElementsDjMusicAlanWalkerPlaylistMod.ModElement
 			return;
 		{
 			Map<String, Object> $_dependencies = new HashMap<>();
-			$_dependencies.put("world", world);
-			ProcedureCheck.executeProcedure($_dependencies);
+			ProcedureJOnKeyPressed.executeProcedure($_dependencies);
 		}
 	}
 }
