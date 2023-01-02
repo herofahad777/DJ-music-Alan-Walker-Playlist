@@ -1,40 +1,4 @@
 {
-  "alan_walker_-_the_spectre": {
-    "category": "master",
-    "sounds": [
-      {
-        "name": "dj_music_alan_walker_playlist:alan_walker_-_the_spectre",
-        "stream": false
-      }
-    ]
-  },
-  "alan_walker_-_sing_me_to_sleep": {
-    "category": "master",
-    "sounds": [
-      {
-        "name": "dj_music_alan_walker_playlist:alan_walker_-_sing_me_to_sleep",
-        "stream": false
-      }
-    ]
-  },
-  "alan_walker_-_darkside_feat._au_ra_and_tomine_harket": {
-    "category": "master",
-    "sounds": [
-      {
-        "name": "dj_music_alan_walker_playlist:alan_walker_-_darkside_feat._au_ra_and_tomine_harket",
-        "stream": false
-      }
-    ]
-  },
-  "alan_walker_-_faded": {
-    "category": "master",
-    "sounds": [
-      {
-        "name": "dj_music_alan_walker_playlist:alan_walker_-_faded",
-        "stream": false
-      }
-    ]
-  },
   "awlily": {
     "category": "master",
     "sounds": [
@@ -175,6 +139,42 @@
     "sounds": [
       {
         "name": "dj_music_alan_walker_playlist:kygo_-_stranger_things_ft._onerepublic_alan_walker_remix",
+        "stream": false
+      }
+    ]
+  },
+  "alan_walker_-_the_spectre": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "dj_music_alan_walker_playlist:alan_walker_-_the_spectre",
+        "stream": false
+      }
+    ]
+  },
+  "alan_walker_-_sing_me_to_sleep": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "dj_music_alan_walker_playlist:alan_walker_-_sing_me_to_sleep",
+        "stream": false
+      }
+    ]
+  },
+  "alan_walker_-_darkside_feat._au_ra_and_tomine_harket": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "dj_music_alan_walker_playlist:alan_walker_-_darkside_feat._au_ra_and_tomine_harket",
+        "stream": false
+      }
+    ]
+  },
+  "alan_walker_-_faded": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "dj_music_alan_walker_playlist:alan_walker_-_faded",
         "stream": false
       }
     ]

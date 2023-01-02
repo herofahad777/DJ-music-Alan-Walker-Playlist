@@ -739,42 +739,23 @@
       "metadata": {
         "dependencies": []
       }
+    },
+    {
+      "name": "AWDarksideDownloader",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aw_darkside_downloader",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/Songs"
     }
   ],
   "variable_elements": [],
   "sound_elements": [
-    {
-      "name": "alan_walker_-_the_spectre",
-      "files": [
-        "alan_walker_-_the_spectre"
-      ],
-      "category": "master",
-      "subtitle": ""
-    },
-    {
-      "name": "alan_walker_-_sing_me_to_sleep",
-      "files": [
-        "alan_walker_-_sing_me_to_sleep"
-      ],
-      "category": "master",
-      "subtitle": ""
-    },
-    {
-      "name": "alan_walker_-_darkside_feat._au_ra_and_tomine_harket",
-      "files": [
-        "alan_walker_-_darkside_feat._au_ra_and_tomine_harket"
-      ],
-      "category": "master",
-      "subtitle": ""
-    },
-    {
-      "name": "alan_walker_-_faded",
-      "files": [
-        "alan_walker_-_faded"
-      ],
-      "category": "master",
-      "subtitle": ""
-    },
     {
       "name": "awlily",
       "files": [
@@ -899,6 +880,38 @@
       "name": "aw_stranger_things",
       "files": [
         "kygo_-_stranger_things_ft._onerepublic_alan_walker_remix"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "alan_walker_-_the_spectre",
+      "files": [
+        "alan_walker_-_the_spectre"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "alan_walker_-_sing_me_to_sleep",
+      "files": [
+        "alan_walker_-_sing_me_to_sleep"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "alan_walker_-_darkside_feat._au_ra_and_tomine_harket",
+      "files": [
+        "alan_walker_-_darkside_feat._au_ra_and_tomine_harket"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "alan_walker_-_faded",
+      "files": [
+        "alan_walker_-_faded"
       ],
       "category": "master",
       "subtitle": ""

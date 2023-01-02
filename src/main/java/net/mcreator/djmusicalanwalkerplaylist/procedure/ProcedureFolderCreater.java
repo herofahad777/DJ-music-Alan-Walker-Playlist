@@ -11,13 +11,9 @@ public class ProcedureFolderCreater extends ElementsDjMusicAlanWalkerPlaylistMod
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies){
-      File path = new File("folderc").getAbsoluteFile();
+      File path = new File("songs").getAbsoluteFile();
       boolean bool = path.mkdir();  
-      if(bool){  
-         System.out.println("Folder is created successfully");  
-      }else{  
-         System.out.println("Error Found!");  
-      }  
-      
+      if(bool) 
+         System.out.println("Folder is created successfully");      
 	}
 }
