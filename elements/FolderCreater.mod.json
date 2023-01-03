@@ -1,7 +1,0 @@
-{
-  "_fv": 18,
-  "_type": "procedure",
-  "definition": {
-    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"java_code\"><field name=\"CODE\">/&amp;#10;//Import file class  &amp;#10;import java.io.File;  &amp;#10;//Import Scanner class   &amp;#10;import java.util.Scanner;  &amp;#10;public class CreateFolder {  &amp;#10;    //Main() method start  &amp;#10;    public static void main(String args[]) {        &amp;#10;      //Using Scanner class to get the path from the user where he wants to create a folder.  &amp;#10;      System.out.println(\"Enter the path where you want to create a folder: \");  &amp;#10;      Scanner sc = new Scanner(System.in);  &amp;#10;      String path = sc.next();  &amp;#10;      //Using Scanner class to get the folder name from the user  &amp;#10;      System.out.println(\"Enter the name of the desired a directory: \");  &amp;#10;      path = path+sc.next();  &amp;#10;      //Instantiate the File class   &amp;#10;      File f1 = new File(path);  &amp;#10;      //Creating a folder using mkdir() method  &amp;#10;      boolean bool = f1.mkdir();  &amp;#10;      if(bool){  &amp;#10;         System.out.println(\"Folder is created successfully\"); \\&amp;#10;      }else{  &amp;#10;         System.out.println(\"Error Found!\");  &amp;#10;      }  &amp;#10;   }  &amp;#10;}  </field></block></next></block></xml>"
-  }
-}

@@ -1,7 +1,0 @@
-{
-  "_fv": 18,
-  "_type": "procedure",
-  "definition": {
-    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">player_log_in</field><next><block type=\"download_file\"><value name=\"url\"><block type=\"text\"><field name=\"TEXT\">https://www.dropbox.com/s/hmx1lnzmux6cuzj/1.16.zip?dl=0</field></block></value><value name=\"folder\"><block type=\"java_code_get\"><field name=\"CODE\">String t = \"test\";&amp;#10;String abs = t.getAbsoluteFile();</field></block></value><next><block type=\"world_send_chat\"><value name=\"text\"><block type=\"text\"><field name=\"TEXT\">Message</field></block></value></block></next></block></next></block></xml>"
-  }
-}

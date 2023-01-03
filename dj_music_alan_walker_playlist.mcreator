@@ -679,68 +679,6 @@
       "path": "~/Song Giver"
     },
     {
-      "name": "Check",
-      "type": "procedure",
-      "sortid": 40,
-      "compiles": true,
-      "locked_code": true,
-      "ids": {},
-      "registry_name": "check",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "J",
-      "type": "keybind",
-      "sortid": 41,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "j"
-    },
-    {
-      "name": "Downloader",
-      "type": "procedure",
-      "sortid": 42,
-      "compiles": true,
-      "locked_code": true,
-      "ids": {},
-      "registry_name": "downloader",
-      "metadata": {
-        "dependencies": []
-      }
-    },
-    {
-      "name": "FolderCreater",
-      "type": "procedure",
-      "sortid": 43,
-      "compiles": true,
-      "locked_code": true,
-      "ids": {},
-      "registry_name": "folder_creater",
-      "metadata": {
-        "dependencies": []
-      }
-    },
-    {
-      "name": "JOnKeyPressed",
-      "type": "procedure",
-      "sortid": 44,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "j_on_key_pressed",
-      "metadata": {
-        "dependencies": []
-      }
-    },
-    {
       "name": "AWDarksideDownloader",
       "type": "procedure",
       "sortid": 45,
@@ -934,7 +872,6 @@
       "item.alan_walker_force.name": "Force",
       "item.alan_walker_hope.name": "Hope",
       "item.alan_walker_unity.name": "Unity",
-      "key.mcreator.j": "call",
       "subtitles.aw_tired": "",
       "item.record.alan_walker_all_falls_down.desc": "Alan Walker All Falls Down",
       "item.alan_walker_ignite.name": " Ignite",
